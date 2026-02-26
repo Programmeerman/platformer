@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="test2"
+config/name="platformer"
 run/main_scene="uid://calwafp7mfcsn"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"

@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://csb1u1dhhmcvg"]
 
 [ext_resource type="Texture2D" uid="uid://c8lyfx1x0c7aa" path="res://images/Snail/Walk (38x24).png" id="1_6lcqf"]
+[ext_resource type="Script" uid="uid://4ff0houpaf0j" path="res://scripts/snail.gd" id="1_oqbjf"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_oqbjf"]
 atlas = ExtResource("1_6lcqf")
@@ -87,6 +88,7 @@ size = Vector2(102, 41)
 radius = 34.0147
 
 [node name="Snail" type="Area2D" unique_id=1128200234]
+script = ExtResource("1_oqbjf")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=373380633]
@@ -105,3 +107,9 @@ shape = SubResource("RectangleShape2D_fc658")
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=262770462]
 position = Vector2(21, -1)
 shape = SubResource("CircleShape2D_u7h5c")
+
+[node name="Timer" type="Timer" parent="." unique_id=1206733519]
+autostart = true
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

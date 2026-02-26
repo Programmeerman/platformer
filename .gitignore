@@ -5,3 +5,4 @@
 # Other things needed to ignore to make sure not too much files commited
 .vscode/
 *.import
+*.txt
