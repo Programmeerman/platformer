@@ -17,4 +17,4 @@ A simple platformer made in Godot.
 ### Are you releasing for macOS or Linux?
 Currently not, since I only run Windows.
 ### Web version?
-No.
+Coming soon!
