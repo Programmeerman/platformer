@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install Godot
-        uses: firebelley/setup-godot@v1
+        uses: barichello/godot-ci@v1
         with:
           version: 4.2.1
           use-dotnet: false
