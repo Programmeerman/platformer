@@ -15,6 +15,8 @@ A simple platformer made in Godot.
 5. The project is now editable
 ## FAQ
 ### Are you releasing for macOS or Linux?
-Currently not, since I only run Windows.
+Currently not, since I only run Windows. However, you can use an app like Wine
+to use this in an emulator, but don't report issues complaining about the
+emulator.
 ### Web version?
 Coming soon!
