@@ -18,8 +18,7 @@ func _load_level(level_number: int, first_load: bool, reset_score: bool) -> void
 		await _fade(1.0)
 	
 	if reset_score:
-		score = 0
-		score_label.text = "SCORE: 0"
+		score = score - 1
 	
 	if current_level_root:
 		current_level_root.queue_free()
