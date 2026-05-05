@@ -2,7 +2,7 @@ extends Area2D
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 
 signal player_died
-const SPEED = 100.0
+const SPEED = 50.0
 var direction = -1.0
 
 # Called when the node enters the scene tree for the first time.
