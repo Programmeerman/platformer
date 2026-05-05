@@ -89,7 +89,6 @@ radius = 34.0147
 
 [node name="Snail" type="Area2D" unique_id=1128200234]
 script = ExtResource("1_oqbjf")
-metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=373380633]
 texture_filter = 1
@@ -105,7 +104,7 @@ position = Vector2(6, 14.5)
 shape = SubResource("RectangleShape2D_fc658")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=262770462]
-position = Vector2(21, -1)
+position = Vector2(19, 2)
 shape = SubResource("CircleShape2D_u7h5c")
 
 [node name="Timer" type="Timer" parent="." unique_id=1206733519]

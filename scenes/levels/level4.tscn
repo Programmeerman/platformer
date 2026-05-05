@@ -3,7 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://lq24ipqfnbdk" path="res://images/Background/Green.png" id="1_e127x"]
 [ext_resource type="Texture2D" uid="uid://my26dibbjq0h" path="res://images/Tilemap/Terrain (16x16).png" id="2_heu5o"]
 [ext_resource type="PackedScene" uid="uid://n3aewvqavrpb" path="res://scenes/player.tscn" id="3_s45gt"]
-[ext_resource type="PackedScene" uid="uid://csb1u1dhhmcvg" path="res://scenes/snail.tscn" id="4_4vryo"]
 [ext_resource type="PackedScene" uid="uid://mhhmhiv68pl4" path="res://scenes/apple.tscn" id="5_g1ckg"]
 [ext_resource type="PackedScene" uid="uid://82f7iyhvb6xt" path="res://scenes/moving_platform.tscn" id="5_rdsj4"]
 [ext_resource type="Texture2D" uid="uid://33c5nuwtw5yw" path="res://images/Tilemap/Checkpoint (Flag Idle)(64x64).png" id="6_t7v7a"]
@@ -273,10 +272,6 @@ position = Vector2(29.333334, 145.66667)
 scale = Vector2(1, 1)
 
 [node name="Enemies" type="Node2D" parent="." unique_id=1986906826]
-
-[node name="Snail" parent="Enemies" unique_id=1128200234 instance=ExtResource("4_4vryo")]
-position = Vector2(375.6667, 100.333336)
-scale = Vector2(0.33, 0.33)
 
 [node name="Apples" type="Node2D" parent="." unique_id=1546754675]
 
